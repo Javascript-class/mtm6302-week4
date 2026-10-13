@@ -45,7 +45,7 @@ function findColor(name) {
     //if you found it then display Yes
     //else dislay No
     if($allColors.includes(name)) {
-        $colorResponse.innerHTML = `Yes we have ${name} in our array`
+        $colorResponse.innerHTML = `Yes we have ${name} in  our array`
     } else {
         $colorResponse.innerHTML = `No we do not have ${name} in our array`
     }
